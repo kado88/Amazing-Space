@@ -3,8 +3,8 @@ body {
     background-color: rgb(30, 150, 60);
     color: green;
     text-shadow: 0 0 15px black;
-    font-family: Georgia, Verdana;
-}
+    font-family: Georgia, Verdana, 'Times New Roman';
+
 
 #container {
     position: relative;
