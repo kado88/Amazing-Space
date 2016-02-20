@@ -1,2 +1,29 @@
 body {
+    background-image: url('ace.jpg');
+    background-color: rgb(30, 150, 60);
+    color: green;
+    text-shadow: 0 0 15px black;
+    font-family: 'AR DARLING', Georgia, Verdana;
+}
+
+#container {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border: 2px solid green;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 75px;
+}
+
+.soft-glow {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    top: 0px;
+    margin-left: 0px;
+    background-color: rgb(150, 30, 60);
+    opacity: 0.4;
+    z-index: -1;
 }
