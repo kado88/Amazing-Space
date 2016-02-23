@@ -1,1 +1,1 @@
-document.write('Hello Space!');
+var i = 5;

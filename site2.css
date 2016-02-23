@@ -5,27 +5,41 @@ body {
 }
 
 .confined {
-    background-color: rgb(255, 200, 255);
+    background-color: rgb(150, 30, 60);
     width: 98%;
     max-width: 1100px;
     height: 800px;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: 2px outset black;
     border-radius: 5px;
 }
 
 .buttton a {
     text-decoration: none;
+    color: black;
 }
 
 .javaScriptBox {
     width: 75%;
-    height: 600px;
-    padding: 50px;
+    min-height: 600px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: auto;
-    background-color: rgb(255, 200, 255);
+    background-color: rgb(225, 225, 225);
     border: 2px outset black;
     border-radius: 5px;
+    margin-top: 20px;
+}
+
+#signUp {
+    margin-top: 50px;
+    text-align: left;
 }

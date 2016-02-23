@@ -3,14 +3,45 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Alien Script Workhouse!</title>
+        <title>The Alien Workshop</title>
         <link type="text/css" rel="stylesheet" href="site2.css" />
     </head>
     <body>
         <div class="confined">
-            <h1>The Alien Script Workhouse</h1>
+            <h1>The Alien WorkShop</h1>
             <div class="buttton"><a href="index.html"><< Back</a></div>
+            <!--Inside of this next div is where the forms begin-->
             <div class="javaScriptBox">
+              <h4>Log-In:</h4>
+                <!--This is the Log-In form-->
+                <form action="process.asp" method="get">
+                    Username: <input type="text" name="username" />
+                    Password: <input type="password" name="password" />
+                    <input type="submit" value="Log In" name="submit1" />
+                </form>
+                <!--This is the div for the Sign-Up form-->
+                <div id="signUp">
+                <h4>Not a Member? Then sign up for free!</h4>
+                <form>
+                    First Name: <input type="text" name="fname" />
+                    <br/><br/>
+                    Last Name: <input type="text" name="lname" />
+                    <br/><br/><br/>
+                    pick a username: <input type="text" name="uname" />
+                    <br/><br/>
+                    re-type Username: <input type="text" name="uname2" />
+                    <br/><br/><br/>
+                    Create password: <input type="password" name="pword" />
+                    <br/><br/>
+                    re-type password: <input type="password" name="pword2" />
+                    <br/><br/><br/>
+                    Male? <input type="checkbox" name="male" />
+                    Female? <input type="checkbox" name="fmale" />
+                    <br/><br/>
+                    <input type="submit" value="Sign Up" name="submit2" />
+                </form>
+                    <!--End of the sign-up form-->
+                </div>
                 <script src="script2.js"></script>
             </div>
         </div>
